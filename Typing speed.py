@@ -12,7 +12,7 @@ start_time = datetime.datetime.now()
 def on_press(key):
     global current_index, correct, incorrect, sentence
     if key == Key.shift:
-        #pass
+        pass
     else:
         if key == Key.backspace and current_index > 0:
             current_index -= 1
